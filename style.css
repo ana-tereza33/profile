@@ -19,11 +19,6 @@ h2 {
   color: #8f66c5;
 }
 
-#le-wagon {
-  text-decoration: none;
-  color: #ffffff
-}
-
 #le-wagon:hover {
   background-color: #000000;
 }
@@ -40,14 +35,12 @@ ul li {
   padding: 10px;
 }
 
-.social-hover {
-  background-color: rgb(183, 174, 174);
-  text-align: center;
-  text-decoration: none;
+.social {
+  color: rgb(190, 113, 207);
 }
 
-.social-hover:hover {
-  background-color: #000000;
+.social:hover {
+  color: #000000;
   text-decoration: none;
 }
 
@@ -59,22 +52,22 @@ ul li {
   border-radius: 4px;
   border: 1px solid #EAEAEA;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
-  }
+}
 
-  #profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
-a {
-    text-decoration: none;
-    background-color: #d581d6;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
-    transition: 0.3s ease;
+#le-wagon {
+  text-decoration: none;
+  background-color: #d581d6;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
 }
 
 @media (max-width: 540px) {
